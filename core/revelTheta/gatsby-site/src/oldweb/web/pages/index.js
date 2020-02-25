@@ -9,7 +9,7 @@ import BoxT from '../components/boxt.js';
 import VenueBox from '../components/venueBox.js';
 //import InfoFoot from '../components/infofoot.js';
 import Footer from '../components/footer.js';
-import Client from '../client'
+import client from '../client'
   // <InfoFoot/>;
 // import "react-multi-carousel/lib/styles.css";
 // <BoxT('food')/>;
