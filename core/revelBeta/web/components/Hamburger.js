@@ -25,19 +25,12 @@ const Hamburger = () => {
       </nav>
       <Menu right isOpen={open}>
       //load mobilemenu page
-        <ul className="hamburger-ul">
-          // {routes.map((l) => (
-          //   <li key={l.label}>
-              // <Link to={l.path} onClick={() => setOpen(!open)}>
-              //   <h3 className={l.index && 'index-li'}>{l.label}</h3>
-              // </Link>
-            // </li>
-            <li>Eats and drinks</li>
-            <li>Venue</li>
-            <li>About</li>
-            <li>Contact</li>
-          ))}
-        </ul>
+        <ul className="hamburger-ul">(
+            <li>Eats and drinks</li>,
+            <li>Venue</li>,
+            <li>About</li>,
+            <li>Contact</li>,
+        )</ul>;
       </Menu>
     </div>
   );

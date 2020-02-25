@@ -16,7 +16,7 @@ const linkStyle = {
 //   </div>
 // );
 
-export default Header;
+
 
 import Hamburger from './Hamburger';
 // import routes from '../../data/routes';

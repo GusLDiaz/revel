@@ -1,18 +1,20 @@
 import Link from 'next/link';
-import Header from '../../components/header.js';
+import Header from '../components/header.js';
 //import Circles from '../../components/headerc.js';
 //import Nav from '../../components/navbar.js';
-import BarSwitch from '../../components/barSwitch';
-import Head from '.next/head';
+import BarSwitch from '../components/barSwitch';
+import Head from 'next/head';
 import Carousel from 'react-multi-carousel';
-import BoxT from '../../components/boxt.js';
-import VenueBox from '../venue.js';
-import InfoFoot from '../../components/infofoot.js';
-import Footer from '../../components/footer.js';
+import BoxT from '../components/boxt.js';
+import VenueBox from '../components/venueBox.js';
+//import InfoFoot from '../components/infofoot.js';
+import Footer from '../components/footer.js';
+  // <InfoFoot/>;
 // import "react-multi-carousel/lib/styles.css";
 // <BoxT('food')/>;
 // <BoxT('drinks')/>;
 // <BoxT('liveMusic')/>;
+  // <Circles/>;
 const responsive  = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -35,9 +37,10 @@ const responsive  = {
 };
 
 const Index = () => {
-  <Nav/>;
-  <Header/>;
+  //<Nav/>;
+  //<Header/>;
   //<Circles/>;
+
   <section class='topHome'>
     <div class = 'heroImage' id='topImageWrapper'>
       <img class = 'heroImage' id ='topImage'/>;
@@ -45,11 +48,12 @@ const Index = () => {
   </section>;
   <section class = 'title'>
     <h2> See what Revel has to offer</h2>;
-  <Circles/>;
+
+
   </section> ;
     <BarSwitch/>;
   <section class = 'upcomingEvents' Id='carouselEvents'>
-    <Carousel responsive={Responsive}>
+    <Carousel responsive={responsive}>
       <div>Item 1</div>//eventflyers
       <div>Item 2</div>
       <div>Item 3</div>
@@ -67,12 +71,12 @@ const Index = () => {
     <div>
       <h1 class = 'h1y'> All Under One Roof.</h1>;
     </div>;
-    <InfoFoot/>;
   </section>;
   <section>
     <div>
     <Footer/>;
     </div>;
   </section>;
+
 };
 export default Index

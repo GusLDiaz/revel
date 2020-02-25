@@ -1,0 +1,4 @@
+const foodCopy = () => {
+  <div>
+  <>
+}
