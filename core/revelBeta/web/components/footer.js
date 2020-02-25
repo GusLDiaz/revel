@@ -1,5 +1,5 @@
 //yellow bar with privacy policy and misc
 const Footer = () => {
-  <div></div>
-};
+  return(<div></div>
+)};
 export default Footer;

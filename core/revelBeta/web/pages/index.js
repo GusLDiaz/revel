@@ -40,18 +40,16 @@ const Index = () => {
   //<Nav/>;
   //<Header/>;
   //<Circles/>;
-
+return (
   <section class='topHome'>
     <div class = 'heroImage' id='topImageWrapper'>
       <img class = 'heroImage' id ='topImage'/>;
     </div>;
-  </section>;
+  </section>,
   <section class = 'title'>
     <h2> See what Revel has to offer</h2>;
-
-
-  </section> ;
-    <BarSwitch/>;
+  </section>,
+    <BarSwitch/>,
   <section class = 'upcomingEvents' Id='carouselEvents'>
     <Carousel responsive={responsive}>
       <div>Item 1</div>//eventflyers
@@ -59,24 +57,22 @@ const Index = () => {
       <div>Item 3</div>
       <div>Item 4</div>
     </Carousel>;
-  </section>;
-  <VenueBox/>;
+  </section>,
+  <VenueBox/>,
   <section>
     <div>
       <h1 class = 'h1w'> What is</h1><h1 class = 'h1y'> Revel</h1><h1 class = 'h1w'> ?.</h1>;
     </div>;
-
-  </section>;
+  </section>,
   <section>
     <div>
       <h1 class = 'h1y'> All Under One Roof.</h1>;
     </div>;
-  </section>;
+  </section>,
   <section>
     <div>
-    <Footer/>;
-    </div>;
-  </section>;
-
-};
+    <Footer/>
+    </div>
+  </section>
+);}
 export default Index
