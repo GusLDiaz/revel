@@ -24,8 +24,8 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>,
+    <Link to="/About/">Go to page 2</Link>
+  ,
   <section class='topHome'>
     <div class = 'heroImage' id='topImageWrapper'>
       <img class = 'heroImage' id ='topImage'/>;
@@ -58,9 +58,9 @@ const IndexPage = () => (
     <div>
     <Footer/>
     </div>
-  </section>
-)
-
+  </section>,
+  </Layout>
+);
 export default IndexPage
 
 //import client from '../client'

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-revel",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "",
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
     "babel-plugin-styled-components": "^1.10.7",
