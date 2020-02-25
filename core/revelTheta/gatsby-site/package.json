@@ -17,6 +17,7 @@
     "gatsby-plugin-styled-components": "^3.1.19",
     "gatsby-plugin-typography": "^2.3.22",
     "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-source-sanity": "^5.0.5",
     "gatsby-theme-massively": "^1.0.3",
     "gatsby-transformer-sharp": "^2.3.13",
     "google-map-react": "^1.1.6",
@@ -30,6 +31,7 @@
     "react-typography": "^0.16.19",
     "redux": "^4.0.5",
     "styled-components": "^5.0.1",
+    "sugui": "^1.0.0-alpha.9",
     "typography": "^0.16.19"
   },
   "devDependencies": {
