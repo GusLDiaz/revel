@@ -2,11 +2,10 @@
 //1.circles
 //2.hero image
 //3.box with styles
-import Circles {useState} from '../HeaderC'
+// import Circles {useState} from '../HeaderC'
 const BarSwitch = () => {
   return (
     <div id=BarSwitchBox>
-
       <div class= barImage></div>
       <div class= barListBox>
         <ol id= barList>
@@ -30,8 +29,6 @@ const BarSwitch = () => {
       color: blue;
     }
   `}</style>
-
-
   )
 };
 export default BarSwitch

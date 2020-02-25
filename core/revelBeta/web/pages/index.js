@@ -1,17 +1,19 @@
 import Link from 'next/link';
 import Header from '../../components/header.js';
-import Circles from '../../components/headerc.js';
-import Nav from '../../components/navbar.js';
-import BarSwitch from '../../components/BarSwitch';
-import Head from '.next/head';\
+//import Circles from '../../components/headerc.js';
+//import Nav from '../../components/navbar.js';
+import BarSwitch from '../../components/barSwitch';
+import Head from '.next/head';
 import Carousel from 'react-multi-carousel';
 import BoxT from '../../components/boxt.js';
 import VenueBox from '../venue.js';
 import InfoFoot from '../../components/infofoot.js';
 import Footer from '../../components/footer.js';
-import "react-multi-carousel/lib/styles.css";
-
-const Responsive = () => {
+// import "react-multi-carousel/lib/styles.css";
+// <BoxT('food')/>;
+// <BoxT('drinks')/>;
+// <BoxT('liveMusic')/>;
+const responsive  = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
@@ -53,15 +55,13 @@ const Index = () => {
       <div>Item 3</div>
       <div>Item 4</div>
     </Carousel>;
-  </section>
+  </section>;
   <VenueBox/>;
   <section>
     <div>
       <h1 class = 'h1w'> What is</h1><h1 class = 'h1y'> Revel</h1><h1 class = 'h1w'> ?.</h1>;
     </div>;
-  <BoxT('food')/>;
-  <BoxT('drinks')/>;
-  <BoxT('liveMusic')/>;
+
   </section>;
   <section>
     <div>
