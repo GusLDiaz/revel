@@ -1,13 +1,13 @@
 //header circles work
-import Link from 'next/link';
-
+// import Link from 'next/link';
+import React from "react"
 const linkStyle = {
   marginRight: 15
 };
-var circlesCount == 1
-function caroselCirc = {
+// var circlesCount == 1
+// function caroselCirc = {
 const Circles = () => (
-<div>
+
   //   <Link href="/">
   //     <a style={linkStyle}>Home</a>
   //   </Link>
@@ -15,7 +15,9 @@ const Circles = () => (
   //     <a style={linkStyle}>About</a>
   //   </Link>
   // </div>/
-  <button onClick={circlesCount ++ 1}></button>
+  // <button onClick={}></button>
+  <div>
+  <button ></button>,
   <ol>
     <li></li>
     <li></li>
@@ -25,12 +27,12 @@ const Circles = () => (
     <li></li>
     <li></li>
     <li></li>
-  </ol>
-  <button></button>
+  </ol>,
+  <button></button>,
   </div>
 );
 
-export default Circles;
+export default Circles
 
 //import Hamburger from './Hamburger';
 // import routes from '../../data/routes';

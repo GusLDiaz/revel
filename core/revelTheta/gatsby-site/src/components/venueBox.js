@@ -1,7 +1,9 @@
 //1.static images
 //2. overlaid text
-
+import React from "react"
 const VenueBox= () => {
+  return (
+
   <div>
     <img/>//bg blurred
     <div>
@@ -15,6 +17,6 @@ const VenueBox= () => {
 
 Stay tuned for more updates on the most exciting place in town. </p>
     </div>
-  </div>
+  </div>)
 };
 export default VenueBox

@@ -1,5 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+
+import Header from '../components/header.js';
+import Circles from '../components/headerc.js';
+import Nav from '../components/navbar.js';
+import Carousel from 'react-multi-carousel';
+import BoxT from '../components/boxt.js';
+import VenueBox from '../components/venueBox.js';
+import InfoFoot from '../components/infofoot.js';
+import Footer from '../components/footer.js';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -54,14 +63,6 @@ const IndexPage = () => (
 
 export default IndexPage
 
-import Header from '../components/header.js';
-import Circles from '../components/headerc.js';
-import Nav from '../components/navbar.js';
-import Carousel from 'react-multi-carousel';
-import BoxT from '../components/boxt.js';
-import VenueBox from '../components/venueBox.js';
-import InfoFoot from '../components/infofoot.js';
-import Footer from '../components/footer.js';
 //import client from '../client'
   // <InfoFoot/>;
 //import "react-multi-carousel/lib/styles.css";//maybe

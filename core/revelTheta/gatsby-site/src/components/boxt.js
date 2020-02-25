@@ -31,8 +31,8 @@ function App() {
       } />
   );
 }
-const FoodCopy = () => {"<div><h3>Food.</h3><div><p>\Can't decide where to eat? everyone craving something different? We brought 4 local restaurants to one fun\-for\-the\-whole\-family location. From a good \'ol fashion American burger, to Chicago style pizza, or classic new Mexican food./</p></div></div>" }
-const DrinksCopy = () => {<div><h3>Drinks.</h3><div><p>We have 3 different full service bars for any type of vibe. Get funk\'d up at Uptown Funk. Same funk, new home.
+const FoodCopy = () => {return <div><h3>Food.</h3><div><p>\Can't decide where to eat? everyone craving something different? We brought 4 local restaurants to one fun\-for\-the\-whole\-family location. From a good \'ol fashion American burger, to Chicago style pizza, or classic new Mexican food./</p></div></div>};
+const DrinksCopy = () => {return <div><h3>Drinks.</h3><div><p>We have 3 different full service bars for any type of vibe. Get funk\'d up at Uptown Funk. Same funk, new home.
 
 Your 1st round pick is Draft Day Sports Bar. Watch your favorite team on our 15 ft. video wall with one of our 64 beers on draft.
 
