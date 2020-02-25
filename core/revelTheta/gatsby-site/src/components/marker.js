@@ -1,0 +1,21 @@
+// marker for map
+import React from 'react'
+import { Icon } from 'semantic-ui-react'//replace with asset later
+
+const iconStyle = {
+    borderRadius: '100px',
+    boxShadow: '3px 3px 1px #888888'
+}
+const CurrentPin = ({text}) => {
+   return(
+      <div>
+        <Icon name="user circle outline"
+         color='blue'
+         size='big'
+         style={iconStyle}
+        />
+        {text}
+       </div>
+    )
+}
+export default CurrentPin

@@ -52,7 +52,8 @@ const IndexPage = () => (
   <section id= "InfoFoot">
     <div>
       <h1 class = 'h1y'> All Under One Roof.</h1>;
-    </div>;
+    </div>,
+    <InfoFoot/>,
   </section>,
   <section id= 'footer'>
     <div>
