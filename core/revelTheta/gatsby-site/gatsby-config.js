@@ -1,10 +1,37 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby Revel`,
+    description: ``,
+    author: `@gusldiaz`,
+    siteUrl: 'https://www.Romshua.com/',
+    social: {
+      twitter: 'http://twitter.com/',
+      facebook: 'http://facebook.com/',
+      snapchat: 'http://snapchat.com/',
+      instagram: 'http://instagram.com/',
+      medium: 'http://medium.com/'
+    },
+    menuLinks: [
+      {
+        "name": "home",
+        "link": "/"
+      },
+      {
+        "name": "about",
+        "link": "/about"
+      }
+    ],
+    contact: {
+      info: 'This is information about you',
+      email: 'information@untitled.tld',
+      tel: '(000) 000-0000',
+      address: '1234 Somewhere Road Nashville, TN 00000-0000'
+    }
   },
+  // pathPrefix: "/massively-demo",
   plugins: [
+    `gatsby-theme-massively`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,8 +54,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
