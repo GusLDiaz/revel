@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Revel`,
+    title: `Revel`,
     description: ``,
     author: `@gusldiaz`,
     siteUrl: 'https://www.Romshua.com/',
@@ -13,13 +13,21 @@ module.exports = {
     },
     menuLinks: [
       {
-        "name": "home",
+        "name": "Eats and drinks",
         "link": "/"
+      },
+      {
+        "name": "venue",
+        "link": "/venue"
       },
       {
         "name": "about",
         "link": "/about"
-      }
+      },
+      {
+        "name": "contact",
+        "link": "/contact"
+      },
     ],
     contact: {
       info: 'This is information about you',
@@ -30,7 +38,7 @@ module.exports = {
   },
   // pathPrefix: "/massively-demo",
   plugins: [
-    `gatsby-theme-massively`,
+    //`gatsby-theme-massively`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
@@ -39,7 +47,23 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
+    },{
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'krpdiwwt',
+        dataset: 'production',
+        // a token with read permissions is required
+        // if you have a private dataset
+        watchMode: true,
+        overlayDrafts: true,
+        //token: process.env.MY_SANITY_TOKEN, (public for now)skAlSoVklWtFKAbFRzktVoDJZJBrhi7fHZANr0YwE1QIMWUuEMfUkEdNQpCsHyPKGWztqt55aW0VgsXX9hzT0vetEIATg7tkJumFjzLCm6LrG2X3HW3CsP44uEpvmyOJxvM5pbnJp07kJkacmTGMJUmhe70UE2WeWjyXIpYzJLrcsgxCxVoK
+      },},
+      // {
+      // resolve: `gatsby-plugin-layout`,
+      // options: {
+      //   component: require.resolve(`./relative/path/to/layout/component`),
+      // }, maybe use this to maintain cirles cross pages/
+    //},
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

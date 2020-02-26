@@ -4,10 +4,9 @@
 //style 2:
 //Info w/o gmap box instead revel logo and contact us link
 import React from 'react';
-import GoogleMapReact, Marker from 'google-map-react';
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import GoogleMapReact from 'google-map-react';
 //import CurrentPin from './marker.js'
-const Marker = ({ text }) => <div><{text}</div>;
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 // <CurrentPin
 //   lat={this.props.current.lat}
 //   lng={this.props.current.lng}
@@ -30,7 +29,7 @@ class SimpleMap extends React.Component {
       lat: 35.13,
       lng: -106.62
     },
-    zoom: 15
+    zoom: 11
 };
   render() {
     return (
@@ -41,10 +40,10 @@ class SimpleMap extends React.Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <Marker
+          <AnyReactComponent
             lat={35.134690}
             lng={-106.615970}
-            icon={~/marker.png}
+            text=""
           />
         </GoogleMapReact>
       </div>
